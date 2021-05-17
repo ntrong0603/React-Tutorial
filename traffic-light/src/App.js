@@ -1,16 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
-import TodoItem from './components/TodoItem';
 
-function App()
-{
+function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <TodoItem />
-        <TodoItem />
-
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
